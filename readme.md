@@ -5,8 +5,11 @@
 Routes - 
 
 To register user
+
 URL path : /api/register
+
 Method Allowed : Post
+
 body:{
     "name": User Name,
     "email": User Email,
@@ -15,9 +18,13 @@ body:{
 
 
 To obtain an JWT token
+
 URL path : /api/login
+
 Method Allowed : Post
+
 body: 
+
 {
     "email" : User Email,
     "password" : User Password
@@ -25,10 +32,14 @@ body:
 
 
 To search for shows. You will need to use JWT token in header.
+
 URL path : /api/search
+
 Method Allowed : Post
+
 Header : 
 "auth-token" : JWT token obtained.
+
 body:{
     "title" : Search Text 
 }
