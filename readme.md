@@ -3,6 +3,7 @@
  3. Use "npm start" to run
 
 Routes - 
+
 To register user
 URL path : /api/register
 Method Allowed : Post
@@ -12,6 +13,7 @@ body:{
     "password": User Password
 }
 
+
 To obtain an JWT token
 URL path : /api/login
 Method Allowed : Post
@@ -20,6 +22,7 @@ body:
     "email" : User Email,
     "password" : User Password
 }
+
 
 To search for shows. You will need to use JWT token in header.
 URL path : /api/search
